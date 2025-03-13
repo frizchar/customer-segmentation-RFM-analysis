@@ -1,3 +1,4 @@
-# customer-segmentation-RFM-analysis
+# RFM analysis and Customer Segmentation
 We calculate recency, frequency, and monetary values, assign scores, and segment customers into predefined categories like "high value customers".
-The analysis is based on customer transactional data with columns 'CustomerID', 'InvoiceDate', 'Quantity', 'UnitPrice'
+
+The analysis is based on customer transactional data with columns ```CustomerID```, ```InvoiceDate```, ```Quantity``` and ```UnitPrice```
