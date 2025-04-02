@@ -14,7 +14,7 @@ Here are the steps of our method:
 $RFM = R + F + M$
 </p>
 
-3. Define rules to assign customer segments to customers, based on RFM score. In our implementation:
+3. Define rules to assign customer segments to customers, based on RFM score. <br> In our implementation:
 <p align="center">
 if $customer_i$ has $RFM_i \geq 8$ then $segment_i$ = "high value customer"
 </p>
