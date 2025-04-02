@@ -1,4 +1,4 @@
-# RFM analysis and Customer Segmentation
+# Customer Segmentation via RFM analysis
 ### Overview
 We implement RFM analysis in order to segment customers based on past purchase behavior.
 We utilize customer transactional data with columns ```CustomerID```, ```InvoiceDate```, ```Quantity``` and ```UnitPrice```.
