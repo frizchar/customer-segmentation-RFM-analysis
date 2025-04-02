@@ -2,7 +2,7 @@
 ### Overview
 We implement RFM analysis segment customers based on past purchase behavior, using the following features:
 - recency (R) - time since last purchase
-- frequency (F) - total number of purcharses and
+- frequency (F) - total number of purcharses
 - monetary value (M) - total spent
 
 Predefined categories such as "high value customer" are assigned to each customer according to his RFM score.
