@@ -15,7 +15,9 @@ Here are the steps of our method:
 $RFM = R + F + M$
 </p>
 
-3. Assign predefined categories such as "high value customer" to each customer according to his RFM score. In our implementation if $RFM \geq 8$ then the customer is considered as "high value customer".
+3. Define customer segments based on RFM score. In our implementation if $RFM \geq 8$ then the customer is considered as "high value customer".
+
+4. Assign customer segments to each customer. 
 
 ### Dependencies
 The required packages are included in file ```requirements.txt```<br>
