@@ -1,6 +1,6 @@
 # RFM analysis and Customer Segmentation
 ### Overview
-We implement RFM analysis segment customers based on past purchase behavior, using the following features:
+We implement RFM analysis in order to segment customers based on past purchase behavior, using the following features:
 - recency (R) - time since last purchase
 - frequency (F) - total number of purcharses
 - monetary value (M) - total spent
