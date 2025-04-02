@@ -4,8 +4,7 @@ We implement RFM analysis in order to segment customers based on past purchase b
 We utilize customer transactional data with columns ```CustomerID```, ```InvoiceDate```, ```Quantity``` and ```UnitPrice```.
 
 Here are the steps of our method:
-
-1. Based on the data we calculate the following features per customer:
+1. Calculate the following features per customer:
     - recency (R) - time since last purchase
     - frequency (F) - total number of purcharses
     - monetary value (M) - total spent
