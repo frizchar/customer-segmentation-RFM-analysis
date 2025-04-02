@@ -1,9 +1,9 @@
-'''
+"""
 code to segment customers using RFM analysis:
  recency (R) - time since last purchase
  frequency (F) - total number of purcharses
  monetary value (M) - total spent
-'''
+"""
 
 import process_data
 
