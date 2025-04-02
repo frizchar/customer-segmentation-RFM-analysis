@@ -1,6 +1,11 @@
 # RFM analysis and Customer Segmentation
 ### Overview
-We calculate recency, frequency, and monetary values, assign scores, and segment customers into predefined categories such as "high value customers".
+We implement RFM analysis segment customers based on past purchase behavior, using the following features:
+- recency (R) - time since last purchase
+- frequency (F) - total number of purcharses and
+- monetary value (M) - total spent
+
+Each customer is assigned into predefined categories such as "high value customers" according to his RFM score.
 
 The analysis is based on customer transactional data with columns ```CustomerID```, ```InvoiceDate```, ```Quantity``` and ```UnitPrice```
 
