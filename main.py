@@ -4,12 +4,15 @@ code to segment customers using RFM analysis:
  frequency (F) - total number of purcharses
  monetary value (M) - total spent
 """
-
+import get_data
 import process_data
 
 if __name__ == "__main__":
+    # get data
+    dataset = get_data.data
+
     # get processed dataset
-    df = process_data.df
+    df = process_data.process(dataset)
     # calculate RFM score per customer
     RFM_score = df.groupby('CustomerID')['RFMScore'].max().reset_index()
     print('RFM score per customer :\n', RFM_score)
