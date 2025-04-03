@@ -12,7 +12,7 @@ if __name__ == "__main__":
     dataset = get_data.data
 
     # get processed dataset
-    df = process_data.process(dataset)
+    df = process_data.perform_rfm_analysis(dataset)
     # calculate RFM score per customer
     RFM_score = df.groupby('CustomerID')['RFMScore'].max().reset_index()
     print('RFM score per customer :\n', RFM_score)
