@@ -2,9 +2,16 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-def process(data: dict):
-    # get transactional data
-    # data = get_data.data
+def perform_rfm_analysis(data: dict):
+    """
+        Performs RFM analysis on transactional data.
+
+        Parameters:
+            data (list of dict): Transactional data containing 'CustomerID', 'InvoiceDate', 'Quantity', and 'UnitPrice'.
+
+        Returns:
+            pd.DataFrame: DataFrame with RFM metrics and scores.
+    """
 
     # Load data into DataFrame
     df = pd.DataFrame(data)
