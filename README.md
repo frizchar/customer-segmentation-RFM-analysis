@@ -3,6 +3,7 @@
 We implement [RFM analysis](https://en.wikipedia.org/wiki/RFM_(market_research)) in order to segment customers based on past purchase behavior.
 We utilize customer transactional data with columns ```CustomerID```, ```InvoiceDate```, ```Quantity``` and ```UnitPrice```.
 
+### Method
 Here are the steps of our method:
 1. Calculate the following features per customer:
     - recency (R) - time since last purchase
